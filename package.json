@@ -1,13 +1,14 @@
 {
   "name": "@hatxor/supabase-jwt-generator",
   "displayName": "Supabase JWT Generator",
+  "description": "A Yaak plugin that generates signed Supabase-compatible JWT tokens (HS256) with customizable user info, role, and expiration for quick API authentication testing",
   "author": "hatxor",
   "license": "MIT",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.3",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:hatxor/insomnia-plugin-supabase-jwt-generator.git"
+    "url": "https://github.com/hatxor/yaak-plugin-supabase-jwt-generator"
   },
   "scripts": {
     "build": "yaakcli build"
