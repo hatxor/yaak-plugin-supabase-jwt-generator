@@ -1,0 +1,25 @@
+{
+  "name": "@hatxor/supabase-jwt-generator",
+  "displayName": "Supabase JWT Generator",
+  "author": "hatxor",
+  "license": "MIT",
+  "private": true,
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:hatxor/insomnia-plugin-supabase-jwt-generator.git"
+  },
+  "scripts": {
+    "build": "yaakcli build"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.23",
+    "@yaakapp/cli": "^0.3.1",
+    "typescript": "^5.5.2",
+    "vitest": "^3.2.4"
+  },
+  "dependencies": {
+    "@yaakapp/api": "^0.5.3",
+    "fast-jwt": "^6.0.2"
+  }
+}
